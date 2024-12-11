@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\Users\KIIT\Downloads\dns-log-frontend\public\Cloud Rack.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 30px;
+    background-color: rgba(170, 173, 175, 0.867); 
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 90%;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.top-row, .middle-row, .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.search-container input[type="text"], .search-container input[type="date"], .time-dropdown select {
+    width: 23%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.middle-row input[type="date"] {
+    width: 48%;
+}
+
+.bottom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.bottom-row input[type="date"] {
+    width: 48%;
+}
+
+.time-dropdown {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.time-dropdown select {
+    width: 48%;
+    margin-left: 10px; /* Adjust this to change the space between time dropdowns and date input */
+}
+
+.search-container button {
+    padding: 10px 24px; 
+    font-size: 18px; 
+    background-color: #35424a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-container button:hover {
+    background-color: #e8491d;
+}
+
+.table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #161d34;
+    color: #ececec;
+}
+
+.no-logs-message {
+    margin-top: 20px;
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}

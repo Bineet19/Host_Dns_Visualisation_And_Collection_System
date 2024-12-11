@@ -1,78 +1,70 @@
-# Host_Dns_Visualisation_And_Collection_System
-A DNS Monitoring and Analysis System designed to enhance cybersecurity by capturing DNS queries using Sysmon, processing them with C# agents, storing them in MongoDB, and providing a React.js web interface for querying and visualization.
-Here’s the complete README file in a single set for easy copying:  
+# Getting Started with Create React App
 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# DNS Monitoring and Analysis System  
+## Available Scripts
 
-A comprehensive system to monitor, analyze, and visualize DNS traffic for enhanced cybersecurity. This project captures DNS queries at the endpoint level, stores them in a centralized database, and provides an intuitive web interface for querying and analyzing the data.  
+In the project directory, you can run:
 
-## Features  
-- **Real-time DNS Monitoring**: Captures DNS queries along with process details using Sysmon.  
-- **Secure Log Transmission**: Implements socket programming for secure client-server communication.  
-- **Centralized Storage**: Stores extracted DNS logs in a MongoDB database with key details such as query name, timestamp, process ID, path, and IP address.  
-- **Web Interface**: Provides a React.js-based frontend with search functionality for efficient log querying and visualization.  
-- **Scalability**: Designed to handle large-scale log data and support future enhancements.  
+### `npm start`
 
-## Technology Stack  
-- **Monitoring**: Sysmon  
-- **Backend Development**: C#, Node.js, Express.js  
-- **Frontend Development**: React.js  
-- **Database**: MongoDB  
-- **Networking**: Socket Programming  
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Installation  
-### Prerequisites  
-- Install [Sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon).  
-- Node.js and npm installed on your system.  
-- MongoDB installed or hosted.  
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
-   
-1. Set up the backend:  
-   - Navigate to the `backend` folder.  
-   - Install dependencies:  
-     
-     npm install
-       
-   - Configure MongoDB connection in the `.env` file.  
-   - Start the backend server:  
-     ```bash
-     npm start
-     ```  
-2. Set up the frontend:  
-   - Navigate to the `frontend` folder.  
-   - Install dependencies:  
-     
-     npm install
-       
-   - Start the frontend server:  
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-     npm start
-     
+### `npm run build`
 
-3. Deploy the C# agent:  
-   - Compile and run the C# agent to start capturing logs from Sysmon and transmitting them to the backend.  
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Usage  
-- Access the web interface at `http://localhost:3000`.  
-- Use the search fields to query DNS logs by query name, process ID, timestamp range, etc.  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## Challenges  
-- Formatting timestamps from Sysmon's default UTC to a user-friendly format.  
-- Addressing compatibility issues with BSON timestamps in MongoDB.  
-- Extracting and processing IP addresses accurately.  
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Future Scope  
-- Integrate machine learning for anomaly detection.  
-- Add real-time alerting for suspicious DNS activity.  
-- Expand the system to support distributed deployments across multiple endpoints.  
+### `npm run eject`
 
-## Contributing  
-Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.  
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Contact  
-For any queries or feedback, feel free to contact:  
-- **Bineet Roy**: [bineetroy7@gmail.com](mailto:bineetroy7@gmail.com)  
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
