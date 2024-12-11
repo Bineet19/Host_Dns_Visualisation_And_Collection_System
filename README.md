@@ -71,8 +71,6 @@ A comprehensive system to monitor, analyze, and visualize DNS traffic for enhanc
 ## Contributing  
 Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.  
 
-## License  
-This project is licensed under the [MIT License](LICENSE).  
 
 ## Contact  
 For any queries or feedback, feel free to contact:  
