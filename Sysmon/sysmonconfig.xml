@@ -1,0 +1,7 @@
+<Sysmon schemaversion="4.50">
+  <EventFiltering>
+    <DnsQuery onmatch="include">
+      <QueryName condition="contains">.</QueryName>
+    </DnsQuery>
+  </EventFiltering>
+</Sysmon>
