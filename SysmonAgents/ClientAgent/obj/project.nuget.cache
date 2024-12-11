@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zN6G0GA4shk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\KIIT\\Downloads\\SysmonAgents\\ClientAgent\\ClientAgent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\KIIT\\.nuget\\packages\\system.diagnostics.eventlog\\9.0.0\\system.diagnostics.eventlog.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
